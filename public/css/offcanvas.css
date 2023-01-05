@@ -1,0 +1,127 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  padding-top: 56px;
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+  }
+  .offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+}
+
+.nav-scroller .nav {
+  color: rgba(255, 255, 255, .75);
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-scroller .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-scroller .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.bg-purple{
+  background-color: #6f42c1;
+}
+
+.bg-blue2{
+  background-color:#0678b9;
+
+}
+.align{
+  margin: 0 auto;
+}
+.blo {
+    z-index:2;
+    box-shadow: 3px 5px 3px 5px #e1e2e2;
+    background-color: rgba(36, 138, 141, 0.5);
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+
+}
+.blo:hover {
+    transform: scale(1.07);
+}
+.text-blue1{
+  color:#068c96;
+}
+.text-blue2{
+  color:#245ac0;
+}
+li{
+list-style-type: none;
+}
+
+.card-300{
+  width: 800px;
+  margin-left:10%;
+  color: white;
+  background-color: rgb(137, 152, 235);
+  border-radius: 15px;
+}
+
+
+.tb-profile tr{
+  height: 50px;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.bg-blue-op{
+   background: rgba(23, 168, 156, 0.3);
+
+}
+
+.card-300 .card-header{
+    background-color: #068c96;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.btn1 a :hover{
+  background-color : #1a3d7e;
+}
+.flex-p{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.w-2{
+  padding-left: 14px;
+}
+.w-3{
+  padding-left: 33px;
+
+}
+.align-left{
+  text-align: left;
+}
+
